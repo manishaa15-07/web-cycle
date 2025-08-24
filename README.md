@@ -21,7 +21,7 @@ Follow these steps to set up Webcycle on your local machine:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/Mvishere/webcycle.git
+   git clone https://github.com/aayushi-1610/webcycle.git
    ```
 
 2. **Navigate to the project directory**:
