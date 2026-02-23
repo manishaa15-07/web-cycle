@@ -71,3 +71,4 @@ Have questions or feedback? Reach out to us through the GitHub repository or con
 **Join us in building a sustainable future!** 🌍
 
 ---
+# web_cycle
