@@ -1,8 +1,8 @@
 import express from "express";
 import cors from "cors";
 import bodyParser from "body-parser";
-import { quiz } from "../data.js";
-import { resetpass, review, signupauth } from "../mailer.js";
+import { quiz } from "./data.js";
+import { resetpass, review, signupauth } from "./mailer.js";
 
 const app = express();
 
