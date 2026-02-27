@@ -4,7 +4,7 @@ import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
 import axios from "axios";
 
 export default function Signup(props) {
-    const url = "http://localhost:4000";
+    const url = "https://web-cycle-two.vercel.app";
     const passwordIconRef = useRef(null);
     const passwordInputRef = useRef(null);
     const [text, setText] = useState("Minimum 8 characters");

@@ -15,7 +15,7 @@ function QuizApp(props) {
   const [quizID, setQuizID] = useState(0);
   const [userData, setUserData] = useState([]);
   const [leaderboardData, setLeaderboardData] = useState([]);
-  const url = "http://localhost:4000";
+  const url = "https://web-cycle-two.vercel.app";
 
   function customResultPage(obj) {
     return <div className="react-quiz-resultpage">result</div>;
