@@ -11,7 +11,7 @@ const ProfilePage = (props) => {
 
     useEffect(() => {
         axios
-            .post("http://localhost:4000/profile", { username: props.username })
+            .post("https://web-cycle-s4po.vercel.app/profile", { username: props.username })
             .then((response) => {
                 console.log("Data submitted successfully:", response.data);
                 console.log(response.data);
